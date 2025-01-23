@@ -1,7 +1,7 @@
-# Terminal based serial port sniffer for Windows
+# Terminal based serial port shell for Windows
 For all my fellow terminal hermits (Termits). 
 
-Use this script if:
+Use this module if:
 - You don't want/need to use PuTTY/Tera Term
 - Need a native Windows solution.
 
