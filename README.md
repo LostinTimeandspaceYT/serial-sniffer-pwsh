@@ -22,3 +22,4 @@ SerialShell -COMPort # -BaudRate 115200
 
 - To Exit, `<Ctrl+a>` then `z`
 - To list all serial ports currently connected to your PC `<Ctrl+a>` then `l`
+- To clear the screen `<Ctrl+a>` then `c`
