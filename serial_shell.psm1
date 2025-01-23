@@ -9,6 +9,7 @@ $menu = @"
 Menu:
 l:  list COM Ports
 z:  exit SerialShell
+c:  clear screen
 
 press any other key to resume
 "@
@@ -129,6 +130,9 @@ function Start-SerialSession {
                 Invoke-PrimaryBuffer
                 if ($response -eq "l") {
                     print_port_info
+                }
+                if ($response -eq "c") {
+                    Clear-Host
                 }
                 if ($response -eq "z") {
                     break
